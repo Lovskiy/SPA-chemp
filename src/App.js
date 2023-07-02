@@ -7,6 +7,7 @@ import { ListUserOrder } from './components/ListUserOrder'
 import { Login } from './components/Login'
 import { OnlyAccess } from './components/OnlyAccess'
 import { Register } from './components/Register'
+import { Upload } from './components/Upload'
 import StoreContext from './context/store'
 
 function App() {
@@ -105,6 +106,7 @@ function App() {
 						element={<AccessCard />}
 					></Route>
 					<Route path='only-access' element={<OnlyAccess />}></Route>
+					<Route path='upload' element={<Upload />}></Route>
 				</Routes>
 			</main>
 		</StoreContext.Provider>
